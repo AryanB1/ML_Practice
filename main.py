@@ -1,0 +1,16 @@
+import torch
+
+scaler = torch.tensor(7)
+print(scaler)
+print(scaler.ndim)
+print(scaler.item())
+vector = torch.tensor([5, 6, 7])
+print(vector)
+print(vector.ndim)
+print(vector.shape)
+second_dim = torch.tensor([[5, 6], [7, 8]])
+print(second_dim)
+print(second_dim.ndim)
+print(second_dim.shape)
+rand_vector = torch.rand(size=(5, 6))
+print(rand_vector)
